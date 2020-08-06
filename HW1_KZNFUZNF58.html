@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+    margin: 0;
+    padding:0;
+}
+
+.background{
+    color: rgb(165, 165, 158);
+    margin: 80px auto;
+    width: 700px;
+
+}
+
+.background form{
+    width: 650px;
+    background-color: whitesmoke;
+    color: black;
+    padding: 50px;
+    
+}
+
+.background form div{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    padding: 10px;
+    margin: 10px;
+}
+
+.background form label{
+    margin:0 0 0 10px ;
+    width: 670px;
+}
+
+.background form textarea{
+height: 100px;
+
+}
+
+button{
+    background-color: rgb(23, 187, 37);
+    color: whitesmoke;
+    border: none;
+    padding: 5px;
+    margin-top:2px;
+    border-radius: 10px;
+}
+
+button:active{
+    background-color: rgb(7, 102, 14);
+    border: none;
+
+}
+    </style>
+
+</head>
+<body>
+    <div class="background">
+        <form action="">
+            <div>
+                <label for="">First Name</label>
+                <input class="input" type="text" placeholder="Your name..">
+
+                <label for="">Last Name</label>
+                <input class="input" type="text" placeholder="Your last name">
+
+                <label for="">Country</label>
+                <select class="input">
+                    <option>Australia</option>
+                    <option>Ghana</option>
+                    <option>Togo</option>
+                </select>
+
+                <label for="">Subject</label>
+                <textarea>....write somthing</textarea>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
